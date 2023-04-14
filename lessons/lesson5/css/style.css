@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+Mono&display=swap');
+@font-face {
+	font-family: "passionsConflictregular";
+	src: url("../fonts/passionsconflict-regular-webfont.woff2") format("woff2"),
+		  url("../fonts/passionsconflict-regular-webfont.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "beerMoneyregular";
+	src: url("../fonts/beer_money-webfont.woff2") format("woff2"),
+		  url("../fonts/beer_money-webfont.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+main{
+	font-size: 20px;
+	line-height: 2.0;
+	letter-spacing: 2px;
+}
+ul li {
+	display: inline; /* Отображать как строчный элемент */
+}
+ul{
+	text-align:center;	
+}
+h3{
+	text-align: center;
+}
+.block{
+	background-color: rgba(54, 180, 180, 0.393);
+	font-family: "passionsConflictregular", sans-serif;
+	font-size: 69px;
+	font-style: oblique;
+	padding-top: 11px;
+	padding-bottom: 11px;	
+	margin-bottom: 15px;
+	width:2400;
+	}
+.block p{
+	text-align:center;
+}
+.part1{
+	color: rgb(19, 210, 61);
+	text-decoration: underline;
+}
+.part2{
+	color: goldenrod;
+	text-decoration: line-through;	
+}
+.part3{
+	color: olive;
+	text-decoration: overline;
+}
+.part4{
+	color: deeppink;
+	text-decoration: none;
+}
+.decline{
+	font-family: "Passions Conflict", cursive;
+	font-style: normal;
+	font-weight: 400;
+	text-indent: 20px;
+	text-shadow: 6px 6px 5px #000;
+	text-transform:lowercase;
+	
+}
+
+.radio{
+	font-family: "Dancing Script", cursive;
+	font-style: oblique;
+	text-indent: 20px;
+	text-shadow: -5px -5px 9px rgba(220, 36, 36, 0.669);
+	text-transform: capitalize;
+	word-spacing: -3px;
+}
+.sparrow{
+	font-family: "Noto Sans Mono", monospace;
+	font-style: normal;
+	text-indent: 20px;
+	text-shadow: -3px -3px 4px rgba(63, 63, 183, 0.669) , 4px 4px rgba(255, 0, 0, 0.267);
+}
+.curtain{
+	font-family: "beerMoneyregular", fantasy;
+	font-style: italic;
+	text-indent: 20px;
+	text-transform: uppercase;
+	word-spacing: 4px;
+}
